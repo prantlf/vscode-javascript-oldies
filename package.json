@@ -1,0 +1,40 @@
+{
+  "name": "javascript-oldies",
+  "displayName": "JavaScript Oldies",
+  "description": "Collects extensions to help maintaining JavaScript projects written with old frameworks and tools.",
+  "version": "1.0.0",
+  "icon": "logo.png",
+  "author": "Ferdinand Prantl <prantlf@gmail.com> (http://prantl.tk/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/vscode-javascript-oldies.git"
+  },
+  "homepage": "https://github.com/prantlf/vscode-javascript-oldies#readme",
+  "bugs": "https://github.com/prantlf/vscode-javascript-oldies/issues",
+  "license": "MIT",
+  "keywords": [
+    "vscode-extension",
+    "vscode-extensionpack",
+    "javascript",
+    "old-javascript",
+    "old",
+    "vscode"
+  ],
+  "publisher": "prantlf",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "dbaeumer.jshint",
+    "gruntfuggly.todo-tree",
+    "lici.require-js",
+    "msjsdiag.debugger-for-chrome",
+    "oouo-diogo-perdigao.docthis",
+    "perkovec.jsdoc-live-preview",
+    "prantlf.fold-on-open",
+    "prantlf.karma-problem-matchers"
+  ]
+}
